@@ -1,0 +1,224 @@
+
+    /* Общие стили */
+    .container {
+        padding: 0 10px;
+    }
+
+    /* Шапка */
+    header {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .nav_menu {
+        display: none; /* Скрываем меню на мобильных устройствах */
+    }
+
+    .tel-btn {
+        gap: 10px; /* Уменьшаем отступы между элементами */
+    }
+
+    .btn {
+        width: 120px; /* Уменьшаем ширину кнопок */
+        height: 30px; /* Уменьшаем высоту кнопок */
+        font-size: 12px; /* Уменьшаем размер текста */
+    }
+
+    .tel a {
+        font-size: 12px; /* Уменьшаем размер текста телефона */
+    }
+
+    .logo img {
+        width: 60px; /* Уменьшаем размер логотипа */
+        height: 40px;
+    }
+
+    /* Баннер */
+    main {
+        margin-top: 50px; /* Отступ между шапкой и баннером */
+    }
+
+    .center-main h1 {
+        font-size: 14px; /* Уменьшаем размер заголовка */
+    }
+
+    .center-main p {
+        font-size: 10px; /* Уменьшаем размер текста */
+    }
+
+    .center-main .btn {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .left-main img,
+    .right-main img {
+        width: 100px; /* Уменьшаем размер изображений */
+        height: 100px;
+    }
+
+    .left-main p,
+    .right-main {
+        padding-bottom: 20px;
+        width: 100px;
+        font-size: 7px;
+    }
+
+    .cards .btn {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    /* О нас */
+    .left-about img {
+        width: 100%; /* Уменьшаем размер изображения */
+    }
+
+    .right-about h2 {
+        font-size: 16px; /* Уменьшаем размер заголовка */
+        margin-top: 20px;
+    }
+
+    .right-about p {
+        font-size: 10px; /* Уменьшаем размер текста */
+    }
+
+    .right-about {
+        margin-left: 0;
+    }
+
+    /* Каталог */
+    .catalog-title p {
+        font-size: 20px; /* Уменьшаем размер заголовка */
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .filter button {
+        width: 60px; /* Уменьшаем размер кнопок */
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .cards {
+        flex-direction: column; /* Карточки в столбик */
+        gap: 10px;
+    }
+
+    .cards .btn {
+        margin-left: 0;
+    }
+
+    .title p {
+        font-size: 20px; /* Уменьшаем размер заголовка */
+    }
+
+    .card9,
+    .card11,
+    .card10,
+    .card0 {
+        width: 100%; /* Карточки на всю ширину */
+    }
+
+    .card9 img,
+    .card11 img,
+    .card10 img,
+    .card0 img {
+        width: 100%; /* Изображения на всю ширину */
+    }
+
+    /* Акции */
+    .action .imgaction img {
+        width: 40px; /* Уменьшаем размер иконки */
+        height: 30px;
+    }
+
+    .action img {
+        width: 100%; /* Изображения на всю ширину */
+    }
+
+    .card10 {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    /* Отзывы */
+    .card-revievs {
+        width: 100px; /* Карточки на всю ширину */
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .card-revievs p {
+        font-size: 10px; /* Уменьшаем размер текста */
+    }
+
+    .card-revievs h5 {
+        font-size: 14px; /* Уменьшаем размер заголовка */
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .card-revievs img {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .ctrelka1,
+    .ctrelka {
+        display: none; /* Скрываем стрелки */
+    }
+
+    /* Преимущества */
+    .advantages p {
+        font-size: 12px; /* Уменьшаем размер текста */
+    }
+
+    /* Подписка */
+    .sub img {
+        width: 100%; /* Изображение на всю ширину */
+    }
+
+    .sub h5 {
+        font-size: 20px; /* Уменьшаем размер заголовка */
+    }
+
+    .sub p {
+        font-size: 12px; /* Уменьшаем размер текста */
+    }
+
+    /* Контакты */
+    .left-info {
+        width: 100%; /* Блок на всю ширину */
+        height: auto;
+        padding: 20px;
+        margin-top: 0;
+    }
+
+    .right-info {
+        width: 100%; /* Блок на всю ширину */
+        height: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .tit {
+        margin-top: 0;
+    }
+
+    /* Футер */
+    .footer p {
+        font-size: 10px; /* Уменьшаем размер текста */
+    }
+
+    /* Карточки акций */
+    .cardss {
+        padding-bottom: 20px;
+    }
+
+    .card-revievs {
+        margin-top: 20px;
+    }

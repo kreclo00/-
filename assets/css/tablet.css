@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: mplus-medium, arial;
+    color: #122947;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 770px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* подключаем шрифты */
+@font-face {
+    font-family: 'mplus-medium';
+    src: url(../media/fonts/MPLUS1p-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'mplus-regular';
+    src: url(../media/fonts/MPLUS1p-Regular.ttf);
+}
+
+.logo img {
+    width: 80px;
+    height: 50px;
+}
+
+.nav_menu a {
+    font-size: 14px;
+}
+
+.btn {
+    width: 150px;
+    height: 35px;
+}
+
+.btn a {
+    font-size: 14px;
+}
+
+.center-main h1 {
+    font-size: 17px;
+}
+
+.center-main p {
+    font-size: 13px;
+}
+
+.cards .btn {
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+.left-main img {
+    width: 250px;
+}
+
+.right-main img {
+    width: 250px;
+}
+
+.main-header-fon {
+    height: 500px;
+}
+
+.left-about img {
+    width: 500px;
+}
+
+.right-about h2 {
+    font-size: 20px;
+    margin-top: 130px;
+}
+
+.right-about p {
+    font-size: 10px;
+}
+
+.right-about {
+    margin-left: -35px;
+}
+
+.catalog-title p {
+    font-size: 30px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.filter button {
+    width: 73px;
+    height: 23px;
+    font-size: 13px;
+}
+
+.cards {
+    display: flex;
+    gap: -20px;
+}
+
+.cards .btn {
+    margin-left: 320px;
+}
+
+.title p {
+    font-size: 30px;
+}
+
+.card9 {
+    width: 250px;
+}
+
+.card11 {
+    width: 250px;
+}
+
+.card10 {
+    width: 250px;
+}
+
+.card0 {
+    width: 250px;
+}
+
+.card9 img {
+    width: 250px;
+}
+
+.action .imgaction img {
+    width: 50px;
+    height: 35px;
+}
+
+.action img {
+    width: 250px;
+}
+
+.card10 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.card-revievs {
+    width: 230px;
+    height: 180px;
+    margin-bottom: 30px;
+}
+
+.card-revievs p {
+    font-size: 12px;
+}
+
+.card-revievs h5 {
+    font-size: 16px;
+    margin-left: 70px;
+}
+
+.card-revievs img {
+    left: 75px;
+}
+
+.ctrelka1 {
+    right: 115px;
+    bottom: 40px;
+}
+
+.ctrelka {
+    left: 150px;
+    bottom: 40px;
+}
+
+.advantages p {
+    font-size: 15px;
+}
+
+.sub img {
+    width: 400px;
+}
+
+.sub h5 {
+    font-size: 27px;
+}
+
+.sub p {
+    font-size: 16px;
+}
+
+.left-info {
+    width: 550px;
+    height: 500px;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+.right-info {
+    width: 400px;
+    height: 350px;
+    margin-bottom: 90px;
+    margin-top: 50px;
+}
+.tit {
+    margin-top: -20px;
+}
+.footer p {
+    font-size: 13px;
+}
+.cardss {
+    padding-bottom: 30px;
+}
+.card-revievs {
+    margin-top: 40px;
+}
