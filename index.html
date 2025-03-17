@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/tablet.css" media="screen and (max-width: 800px)" />
-    <link rel="stylesheet" href="assets/css/phone.css" media="screen and (max-width: 390px)" />
+    <link rel="stylesheet" href="assets/css/phone.css" media="screen and (max-width: 400px)" />
 </head>
 
 <body>
@@ -24,10 +24,21 @@
                 <img src="assets/media/img/header/logo.png" alt="">
             </div>
             <div class="nav_menu">
-                <a href="catalog/catalog.html">Каталог</a>
-                <a href="#onas">Онас</a>
-                <a href="#otz">Отзывы</a>
-                <a href="#action">Акции</a>
+                <!-- Чекбокс для управления состоянием меню -->
+                <input type="checkbox" id="burger">
+                <!-- Иконка бургера -->
+                <label for="burger" class="burger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <!-- Меню с ссылками -->
+                <nav class="menu">
+                    <a href="catalog/catalog.html">Каталог</a>
+                    <a href="#onas">О нас</a>
+                    <a href="#otz">Отзывы</a>
+                    <a href="#action">Акции</a>
+                </nav>
             </div>
             <div class="tel-btn">
 
